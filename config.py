@@ -8,3 +8,7 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 OWNER_ID = int(os.getenv("OWNER_ID"))
+
+ASSISTANT_SESSION = "assistant"
+
+LOG_GROUP = None
